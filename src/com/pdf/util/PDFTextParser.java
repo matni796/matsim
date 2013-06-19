@@ -60,7 +60,8 @@ public class PDFTextParser {
 	}
 
 	public static void main(String args[]){
-		PDFTextParser pdf=new PDFTextParser("Location");
+		PDFTextParser pdf=new PDFTextParser("/Users/Simon/Downloads/StiborLIBOR.pdf");
+		System.out.println(pdf.getParsedText());
 	}
 
 }
